@@ -1,2 +1,3 @@
-# assingment-tickete
-A assignment to create payment checkout page using react-js
+
+<!-- To start/run application : npm run dev -->
+<!-- To build application : npm run build -->

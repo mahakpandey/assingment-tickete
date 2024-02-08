@@ -1,0 +1,119 @@
+.checkout-sub-container {
+  display: flex;
+  max-width: 1200px;
+  flex-direction: row;
+  gap: 24px;
+  padding: 50px 120px 32px 120px;
+}
+
+.checkout-sub-container-left-section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 64px
+  }
+.checkout-sub-container-right-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #DDDDE3;
+    border-radius: 24px
+  }
+
+
+.confirm-pay-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.confirm-heading {
+  font-family: Roboto Serif;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.006em;
+  text-align: left;
+}
+
+.free-cancelation {
+  border: 1px solid #d3d4db;
+  border-radius: 16px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.free-cancelation-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-dark-color);
+}
+
+.free-cancelation-text-below {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-gray-color);
+}
+
+.enter-details-text {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+  text-align: left;
+  color: var(--primary-dark-color);
+}
+
+.enter-details-text-below {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-gray-color);
+}
+
+.input-div {
+  border: 1px solid #b9bbc6;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.input-div input,
+select {
+  font-family: open sans;
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 18px 10px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: var(--primary-light-gray-color);
+}
+
+select option {
+  color: var(--primary-light-gray-color);
+  font-family: open sans;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-family: open sans;
+  font-size: 16px;
+}
+
+.enter-details-form {
+  border-bottom: 1px solid #dddde3;
+  padding-bottom: 30px;
+}

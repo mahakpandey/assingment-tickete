@@ -1,0 +1,35 @@
+.header {
+  padding: 15px 100px;
+}
+
+.sub-header {
+  height: 40px;
+  border: 1px solid;
+  background-color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-header-text {
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.checkout-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: var(--primary-gray-color);
+}
+
+.help-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: right;
+color: var(--primary-dark-color);
+
+}
