@@ -10,7 +10,7 @@ const TotalPayable = () => {
       <div className="free-cancelation ">
         <div className="flex  gap-2">
           <div>
-            <InfoIcon />
+            <InfoIcon color={'#000000'} />
           </div>
           <div className="flex flex-column gap-1">
             <div>

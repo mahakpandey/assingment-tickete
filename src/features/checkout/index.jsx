@@ -2,9 +2,10 @@ import "../../styles/Checkout.css";
 import Header from "../../components/header";
 import InfoIcon from "../../icons/InfoIcon";
 import EnterDetails from "./EnterDetails";
-import AdditionalInfo from "./AdditionalInfo";
 import TotalPayable from "./TotalPayable";
 import SelectPaymentMode from "./SelectPaymentMode";
+import AdditionalInfo from "./AdditionalInfo";
+import FAQSection from "./FAQSection";
 
 const CheckoutPage = () => {
   return (
@@ -39,6 +40,7 @@ const CheckoutPage = () => {
             <AdditionalInfo />
             <SelectPaymentMode/>
             <TotalPayable />
+            <FAQSection/>
           </div>
           <div className="checkout-sub-container-right-section"></div>
         </div>

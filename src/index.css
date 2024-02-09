@@ -35,6 +35,9 @@ body{
 .flex-column {
   flex-direction: column;
 }
+.justify-start{
+  justify-content: flex-start;
+}
 
 .flex-wrap {
   flex-wrap: wrap;
@@ -49,8 +52,14 @@ body{
   align-items: center;
 }
 
+.gap-half{
+  gap: 2px;
+}
 .gap-1 {
   gap: 4px;
+}
+.gap-6px{
+  gap: 6px;
 }
 .gap-2 {
   gap: 8px;
@@ -75,4 +84,7 @@ body{
 }
 .gap-16{
   gap: 64px;
+}
+.gap-15px{
+  gap: 15px
 }
