@@ -1,9 +1,15 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 .checkout-sub-container {
   display: flex;
   /* max-width: 1200px; */
   flex-direction: row;
-  gap: 24px;
-  padding: 50px 120px 32px 120px;
+  gap: 32px;
+  padding: 0 120px 0 120px;
 }
 
 .checkout-sub-container-left-section {
@@ -18,6 +24,7 @@
   width: 30%;
   border: 1px solid #dddde3;
   border-radius: 24px;
+  height: max-content;
 }
 
 .confirm-pay-container {
@@ -377,4 +384,34 @@ input::placeholder {
   right: 20px;
   position: absolute;
   top: 35%;
+}
+.need-help-text {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--primary-dark-color);
+}
+.chat-with-us-btn {
+  background-color: var(--black-color);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  gap: 8px;
+  border: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #edeef0;
+}
+
+.faq-parent{
+  display: flex;
+  gap:32px;
+  padding: 0 120px;
 }

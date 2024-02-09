@@ -3,7 +3,7 @@ import AboutIllustration from "../../icons/AboutIllustration";
 
 const FAQSection = () => {
   return (
-    <div className="flex gap-8">
+    <div className="faq-parent">
       <div className="faq-container">
         <div className="flex flex-column">
           <div><p className="faq-text">Frequently asked questions</p></div>
@@ -11,8 +11,8 @@ const FAQSection = () => {
         </div>
         <div className="illustraion-container">
           <div className="flex flex-column gap-5">
-            <div><p>Still need help? We’re here for you.</p></div>
-            <div><button className="confirm-pay-btn">Confirm & pay</button></div>
+            <div><p className="need-help-text">Still need help? <br/> We’re here for you.</p></div>
+            <div><button className="chat-with-us-btn">Confirm & pay</button></div>
           </div>
           <AboutIllustration/>
         </div>

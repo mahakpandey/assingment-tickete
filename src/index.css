@@ -64,6 +64,9 @@ body{
 .gap-2 {
   gap: 8px;
 }
+.gap-10px{
+  gap:10px
+}
 .gap-3 {
   gap: 12px;
 }
@@ -87,4 +90,21 @@ body{
 }
 .gap-15px{
   gap: 15px
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d5d5d5; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000; 
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bbb; 
 }

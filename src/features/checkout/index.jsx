@@ -7,11 +7,12 @@ import SelectPaymentMode from "./SelectPaymentMode";
 import AdditionalInfo from "./AdditionalInfo";
 import FAQSection from "./FAQSection";
 import Carousel from "../../components/carousel/Carousel";
+import Footer from "../../components/footer";
 
 const CheckoutPage = () => {
   return (
     <>
-      <div className="flex flex-column">
+      <div className="main-container">
         <Header />
         <div className="checkout-sub-container ">
           <div className="checkout-sub-container-left-section">
@@ -41,12 +42,14 @@ const CheckoutPage = () => {
             <AdditionalInfo />
             <SelectPaymentMode />
             <TotalPayable />
-            <FAQSection />
           </div>
           <div className="checkout-sub-container-right-section">
             <Carousel />
           </div>
         </div>
+        <FAQSection />
+
+        <Footer/>
       </div>
     </>
   );
