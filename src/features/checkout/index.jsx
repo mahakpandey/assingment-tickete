@@ -6,6 +6,7 @@ import TotalPayable from "./TotalPayable";
 import SelectPaymentMode from "./SelectPaymentMode";
 import AdditionalInfo from "./AdditionalInfo";
 import FAQSection from "./FAQSection";
+import Carousel from "../../components/carousel/Carousel";
 
 const CheckoutPage = () => {
   return (
@@ -38,11 +39,13 @@ const CheckoutPage = () => {
             </div>
             <EnterDetails />
             <AdditionalInfo />
-            <SelectPaymentMode/>
+            <SelectPaymentMode />
             <TotalPayable />
-            <FAQSection/>
+            <FAQSection />
           </div>
-          <div className="checkout-sub-container-right-section"></div>
+          <div className="checkout-sub-container-right-section">
+            <Carousel />
+          </div>
         </div>
       </div>
     </>
