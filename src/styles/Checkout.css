@@ -1,6 +1,6 @@
 .checkout-sub-container {
   display: flex;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   flex-direction: row;
   gap: 24px;
   padding: 50px 120px 32px 120px;
@@ -116,4 +116,33 @@ input::placeholder {
 .enter-details-form {
   border-bottom: 1px solid #dddde3;
   padding-bottom: 30px;
+}
+.select-payment-mode{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.select-payment-text{
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.006em;
+text-align: left;
+color: var(--primary-dark-color);
+padding: 0px 0px 16px 0px;
+}
+.select-payment-text-below{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--primary-gray-color);
+padding: 0px 0px 16px 0px;
+
+}
+.credit-card-details{
+  
 }

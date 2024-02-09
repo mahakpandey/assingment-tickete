@@ -3,6 +3,8 @@ import Header from "../../components/header";
 import InfoIcon from "../../icons/InfoIcon";
 import EnterDetails from "./EnterDetails";
 import AdditionalInfo from "./AdditionalInfo";
+import TotalPayable from "./TotalPayable";
+import SelectPaymentMode from "./SelectPaymentMode";
 
 const CheckoutPage = () => {
   return (
@@ -35,6 +37,8 @@ const CheckoutPage = () => {
             </div>
             <EnterDetails />
             <AdditionalInfo />
+            <SelectPaymentMode/>
+            <TotalPayable />
           </div>
           <div className="checkout-sub-container-right-section"></div>
         </div>
