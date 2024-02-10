@@ -5,7 +5,9 @@ import InputField from "../../components/inputField";
 const AdditionalInfo = () => {
   return (
     <div className="enter-details-section flex flex-column gap-2">
-      <div className="enter-details-text-section flex flex-column gap-8">
+      <div className="enter-details-text-section">
+      <div className="flex flex-column gap-4">
+
         <div>
           <span className="enter-details-text">Additional information</span>
         </div>
@@ -14,6 +16,7 @@ const AdditionalInfo = () => {
             We need a few more details to complete your reservation.
           </span>
         </div>
+      </div>
 
         <div className="enter-details-form flex flex-column gap-6">
           <div className="flex gap-7">

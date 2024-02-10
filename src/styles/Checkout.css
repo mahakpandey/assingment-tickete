@@ -437,6 +437,11 @@ text-align: left;
   border: 1px solid #D3D4DB;
   background-color: #E4E4E9;
 }
+.enter-details-text-section{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
 @media screen and (min-width: 881px) {
   .faq-heading-text{
@@ -567,6 +572,9 @@ text-align: left;
   }
   .faq-inner-text{
     display: none;
+  }
+  ..enter-details-form {
+    gap: 20px;
   }
 }
 

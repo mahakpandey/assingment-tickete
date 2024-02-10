@@ -4,7 +4,8 @@ import InputField from "../../components/inputField";
 const EnterDetails = () => {
   return (
     <div className="enter-details-section flex flex-column gap-2">
-      <div className="enter-details-text-section flex flex-column gap-8">
+      <div className="enter-details-text-section">
+      <div className="flex flex-column gap-4">
         <div>
           <span className="enter-details-text">Enter your details</span>
         </div>
@@ -14,6 +15,7 @@ const EnterDetails = () => {
             friend? Add their details.
           </span>
         </div>
+      </div>
 
         <div className="enter-details-form flex flex-column gap-6">
           <InputField type="text" placeholder="Full name *" />
