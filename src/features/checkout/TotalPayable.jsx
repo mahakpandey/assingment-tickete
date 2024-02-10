@@ -1,12 +1,16 @@
 import React from "react";
 import InfoIcon from "../../icons/InfoIcon";
+import PiggyBankIcon from "../../icons/PiggyBankIcon";
 
 const TotalPayable = () => {
   return (
-    <div className="flex flex-column gap-4">
+    <div className=" total-payable-container">
+    <div className="flex flex-column gap-3">
+    <div className="total-payable-btn-div"><button className="total-payable-btn"><PiggyBankIcon color={'#299764'}/>{`You save<price>`}</button></div>
       <div>
         <span className="total-payable-text">Total Payable: $XXX</span>
       </div>
+    </div>
       <div className="free-cancelation ">
         <div className="flex  gap-2">
           <div>

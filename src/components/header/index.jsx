@@ -2,14 +2,19 @@ import '../../styles/Header.css'
 import Logo from '../../icons/LogoIcon'
 import LockIcon from '../../icons/LockIcon'
 import QuestionIcon from '../../icons/QuestionIcon'
+import ArrowLeftIcon from '../../icons/ArrowLeftIcon'
 
 const Header = () => {
   return (
     <div className="flex flex-column">
-      <div className="header flex space-between align ">
-        <div>
+      <div className="header ">
+        <div className='logo-icon'>
           <Logo />
         </div>
+        <div className='arrow-left-icon flex align'>
+          <ArrowLeftIcon />
+        </div>
+
         <div className="flex gap-2">
           <LockIcon />
           <span className='checkout-text'>Checkout</span>

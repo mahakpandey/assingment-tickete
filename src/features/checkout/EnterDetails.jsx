@@ -8,7 +8,7 @@ const EnterDetails = () => {
         <div>
           <span className="enter-details-text">Enter your details</span>
         </div>
-        <div>
+        <div className="enter-details-text-below-div">
           <span className="enter-details-text-below">
             We&apos;ll send your tickets to the details below. Booking for a
             friend? Add their details.

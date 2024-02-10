@@ -18,23 +18,28 @@ const CheckoutPage = () => {
           <div className="checkout-sub-container-left-section">
             <div className="confirm-pay-container">
               <div className="flex flex-column gap-8">
-                <div>
+                <div className="confirm-heading-div">
                   <span className="confirm-heading">Confirm & pay</span>
                 </div>
-                <div className="free-cancelation ">
-                  <div className="flex flex-column gap-1">
-                    <div>
-                      <p className="free-cancelation-text">Free cancellation</p>
+                <div className="free-cancelation-container">
+                  <div className="free-cancelation ">
+                    <div className="flex flex-column gap-1">
+                      <div>
+                        <p className="free-cancelation-text">
+                          Free cancellation
+                        </p>
+                      </div>
+                      <div>
+                        <p className="free-cancelation-text-below">
+                          Tickets can be cancelled by 13th December, 2022.
+                        </p>
+                      </div>
                     </div>
                     <div>
-                      <p className="free-cancelation-text-below">
-                        Tickets can be cancelled by 13th December, 2022.
-                      </p>
+                      <InfoIcon />
                     </div>
                   </div>
-                  <div>
-                    <InfoIcon />
-                  </div>
+                  <dic className="gray-line"></dic>
                 </div>
               </div>
             </div>
@@ -44,12 +49,17 @@ const CheckoutPage = () => {
             <TotalPayable />
           </div>
           <div className="checkout-sub-container-right-section">
-            <Carousel />
+            <div>
+              <div className="flex gap-1 confirm-sub-heading-div">
+                <p className="confirm-sub-heading">Confirm & pay</p>
+              </div>
+              <Carousel />
+            </div>
           </div>
         </div>
         <FAQSection />
 
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

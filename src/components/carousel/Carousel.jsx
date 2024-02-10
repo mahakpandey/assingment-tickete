@@ -3,6 +3,7 @@ import LeftArrowIcon from "../../icons/LeftArrowIcon";
 import RightArrowIcon from "../../icons/RightArrowIcon";
 import BestSellerIcon from "../../icons/BestSellerIcon";
 import { images } from "../../data/ImageData";
+import '../../styles/carousel.css'
 
 
 const Carousel = () => {

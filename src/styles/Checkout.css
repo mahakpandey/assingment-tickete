@@ -1,4 +1,4 @@
-.main-container{
+.main-container {
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -22,8 +22,7 @@
   display: flex;
   flex-direction: column;
   width: 30%;
-  border: 1px solid #dddde3;
-  border-radius: 24px;
+
   height: max-content;
 }
 
@@ -77,6 +76,9 @@
   letter-spacing: 0.006em;
   text-align: left;
   color: var(--primary-dark-color);
+}
+.enter-details-text-below-div{
+  padding: 0 0 16px 0;
 }
 
 .enter-details-text-below {
@@ -201,6 +203,11 @@ input::placeholder {
   text-align: left;
   color: var(--primary-dark-color);
 }
+.total-payable-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .save-price-btn {
   padding: 4px 8px;
   gap: 4px;
@@ -257,6 +264,7 @@ input::placeholder {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
+  border: none;
 }
 .coming-soon-div {
   display: flex;
@@ -311,55 +319,11 @@ input::placeholder {
   padding: 24px;
 }
 
-.carousel {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
 .best-seller-icon-div {
   position: absolute;
   top: 20px;
   z-index: 1;
   left: 20px;
-}
-
-.carousel-slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide {
-  flex: 0 0 100%;
-  max-width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.carousel-img {
-  max-height: 195px;
-  height: 195px;
-  border-radius: 16px;
-  width: 352px;
-  max-width: inherit;
-}
-
-.carousel-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.carousel-btn:hover {
-  background-color: #0056b3;
-}
-
-.carousel-dots {
-  display: flex;
-  position: absolute;
-  top: 70%;
-  right: 37%;
 }
 
 .dot {
@@ -410,8 +374,159 @@ input::placeholder {
   color: #edeef0;
 }
 
-.faq-parent{
+.faq-parent {
   display: flex;
-  gap:32px;
+  gap: 32px;
   padding: 0 120px;
+}
+
+.confirm-sub-heading {
+  font-family: Roboto Serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.006em;
+  text-align: left;
+  color: var(--primary-dark-color);
+}
+
+.confirm-sub-heading-div {
+  display: flex;
+  gap: 4px;
+  padding: 0 0 20px 0;
+}
+
+.free-cancelation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.gray-line {
+  border: 1px solid #dddde3;
+}
+.total-payable-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.total-payable-btn{
+  display: flex;
+  align-items: center;
+  border: 1px solid #B4DFC4;
+  border: 100px;
+  background-color: #F2FCF5;
+  color: #299764;
+  padding: 2px 6px;
+  gap: 4px;
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .confirm-sub-heading-div {
+    display: none;
+  }
+  .total-payable-btn-div{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-container {
+    gap: 48px;
+  }
+  .checkout-sub-container {
+    flex-direction: column-reverse;
+    padding: 0 16px;
+    gap: 24px;
+  }
+  .checkout-sub-container-left-section{
+    gap: 48px;
+  }
+  .total-payable-container{
+    gap:12px;
+  }
+  .checkout-sub-container-left-section,
+  .checkout-sub-container-right-section {
+    width: 100%;
+  }
+  .confirm-heading-div {
+    display: none;
+  }
+  .enter-details-text-section {
+    gap: 16px;
+  }
+  .faq-parent {
+    padding: 0 16px;
+    gap: 28px;
+  }
+  .enter-details-text,
+  .select-payment-text,.faq-text {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .total-payable-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .total-payable-btn-container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .input-div input, .credit-heading,.coming-soon-text{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .select-payment-text-below,
+  .enter-details-text-below,.faq-below-text {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 0 12px 0;
+  }
+
+  .select-payment-mode {
+    gap: 16px;
+  }
+  .confirm-and-pay-container{
+    border: none;
+    padding-top: 0;
+  }
+  .flex .gap-7{
+    gap: 20px;
+  }
+  .credit-card-details, .confirm-and-pay-container{
+    gap: 24px;
+  }
+  .confirm-and-pay-container{
+    padding-bottom: 28px;
+  }.confirm-pay-btn {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  }.coming-soon-div{
+    padding: 20px 16px;
+    border-radius: 12px;
+  }
+  .faq-parent{
+    flex-direction: column;
+  }
+  .illustraion-container{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .enter-details-form {
+    flex-direction: column !important ;
+  }
+  .flex .gap-7 {
+    flex-direction: column !important ;
+  }
 }

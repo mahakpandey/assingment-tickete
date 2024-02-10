@@ -9,7 +9,7 @@ const AdditionalInfo = () => {
         <div>
           <span className="enter-details-text">Additional information</span>
         </div>
-        <div>
+        <div className="enter-details-text-below-div">
           <span className="enter-details-text-below">
             We need a few more details to complete your reservation.
           </span>

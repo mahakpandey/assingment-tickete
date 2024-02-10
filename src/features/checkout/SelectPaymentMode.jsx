@@ -55,7 +55,7 @@ const SelectPaymentMode = () => {
           </div>
           <div className="confirm-and-pay-container">
             <div className="flex flex-column gap-half">
-              <div className="flex align space-between">
+              <div className=" total-payable-btn-container">
                 <div className="flex gap-6px">
                   <div><p className="total-payable-text">Total payable:</p></div>
                   <div><p className="total-payable-text">$XXX</p></div>
