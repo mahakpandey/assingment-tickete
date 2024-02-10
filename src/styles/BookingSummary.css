@@ -1,0 +1,25 @@
+.sidebar-box{
+    border: 1px solid #dddde3;
+    border-radius: 24px;
+}
+.upper-div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.lower-div{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #DDDDE3;
+    padding: 16px 16px 32px 16px;
+    gap: 32px;
+}
+.gallery-div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 16px 0 16px;
+}
+.view-payment-div{
+    padding: 0 0 20px 0;
+}

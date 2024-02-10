@@ -1,11 +1,14 @@
 import React from "react";
 import AboutIllustration from "../../icons/AboutIllustration";
+import Accordion from "../../components/accordion/Accordion";
 
 const FAQSection = () => {
   return (
     <div className="faq-parent">
+      
       <div className="faq-container">
-        <div className="flex flex-column">
+
+        <div className="faq-inner-text">
           <div><p className="faq-text">Frequently asked questions</p></div>
           <div><p className="faq-below-text">Here are some of our most asked questions.</p></div>
         </div>
@@ -17,7 +20,13 @@ const FAQSection = () => {
           <AboutIllustration/>
         </div>
       </div>
-      <div className="accordion-container"></div>
+      <div className="accordion-container">
+        <Accordion/>
+      </div>
+      <div className="faq-heading-text">
+          <div><p className="faq-text">Frequently asked questions</p></div>
+          <div><p className="faq-below-text">Here are some of our most asked questions.</p></div>
+        </div>
     </div>
   );
 };

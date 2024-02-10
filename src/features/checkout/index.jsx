@@ -14,7 +14,8 @@ const CheckoutPage = () => {
     <>
       <div className="main-container">
         <Header />
-        <div className="checkout-sub-container ">
+        <div className="inner-container">
+        <div className="checkout-sub-container">
           <div className="checkout-sub-container-left-section">
             <div className="confirm-pay-container">
               <div className="flex flex-column gap-8">
@@ -39,7 +40,7 @@ const CheckoutPage = () => {
                       <InfoIcon />
                     </div>
                   </div>
-                  <dic className="gray-line"></dic>
+                  <div className="gray-line"></div>
                 </div>
               </div>
             </div>
@@ -51,8 +52,16 @@ const CheckoutPage = () => {
           <div className="checkout-sub-container-right-section">
            <BookingSummary/>
           </div>
+
         </div>
+        <div className="gray-line"></div>
+
+        </div>
+        <div className="faq-section">
         <FAQSection />
+        <div className="gray-line"></div>
+
+        </div>
 
         <Footer />
       </div>
