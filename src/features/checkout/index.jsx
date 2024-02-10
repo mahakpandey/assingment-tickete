@@ -6,8 +6,8 @@ import TotalPayable from "./TotalPayable";
 import SelectPaymentMode from "./SelectPaymentMode";
 import AdditionalInfo from "./AdditionalInfo";
 import FAQSection from "./FAQSection";
-import Carousel from "../../components/carousel/Carousel";
 import Footer from "../../components/footer";
+import BookingSummary from "./BookingSummary";
 
 const CheckoutPage = () => {
   return (
@@ -49,12 +49,7 @@ const CheckoutPage = () => {
             <TotalPayable />
           </div>
           <div className="checkout-sub-container-right-section">
-            <div>
-              <div className="flex gap-1 confirm-sub-heading-div">
-                <p className="confirm-sub-heading">Confirm & pay</p>
-              </div>
-              <Carousel />
-            </div>
+           <BookingSummary/>
           </div>
         </div>
         <FAQSection />
