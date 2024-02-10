@@ -15,7 +15,7 @@ const FAQSection = () => {
         <div className="illustraion-container">
           <div className="flex flex-column gap-5">
             <div><p className="need-help-text">Still need help? <br/> We’re here for you.</p></div>
-            <div><button className="chat-with-us-btn">Confirm & pay</button></div>
+            <div><button className="chat-with-us-btn">Chat with us</button></div>
           </div>
           <AboutIllustration/>
         </div>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const DropDownField = ({ option }) => {
   return (
     <div className="input-div">
-      <select name="" id="" style={{ width: "96%" }}>
+      <select name="" id="" >
         <option value="">{option}</option>
       </select>
     </div>

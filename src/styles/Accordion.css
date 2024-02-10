@@ -60,5 +60,7 @@
       gap:28px;
 
     }
-   
+    .accordion-container{
+      width: 100%;
+    }
   }

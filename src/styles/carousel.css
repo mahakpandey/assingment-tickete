@@ -43,11 +43,13 @@
   right: 37%;
 }
 .left-icon-div {
+  cursor: pointer;
   left: 20px;
   position: absolute;
   top: 40%;
 }
 .right-icon-div {
+  cursor: pointer;
   right: 20px;
   position: absolute;
   top: 40%;

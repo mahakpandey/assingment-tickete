@@ -116,6 +116,7 @@ select {
   width: 100%;
   outline: none;
   color: var(--primary-light-gray-color);
+  background-color: white;
 }
 
 select option {
@@ -261,6 +262,7 @@ input::placeholder {
   text-align: left;
 }
 .confirm-pay-btn {
+  cursor: pointer;
   background-color: var(--black-color);
   border-radius: 16px;
   padding: 16px 20px;
@@ -359,6 +361,7 @@ input::placeholder {
   color: var(--primary-dark-color);
 }
 .chat-with-us-btn {
+  cursor: pointer;
   background-color: var(--black-color);
   border-radius: 12px;
   padding: 14px 16px;
@@ -573,7 +576,7 @@ text-align: left;
   .faq-inner-text{
     display: none;
   }
-  ..enter-details-form {
+  .enter-details-form {
     gap: 20px;
   }
 }
