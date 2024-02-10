@@ -40,6 +40,13 @@
     line-height: 26px;
     color: #60646c;
   }
+
+@media screen and (max-width: 881px ) {
+  .accordion-container{
+    width: 100%;
+  }
+}
+
   @media screen and (max-width: 767px) {
     .accordion-item-header span{
       font-size: 14px;
@@ -53,7 +60,5 @@
       gap:28px;
 
     }
-    .accordion-container{
-      width: 100%;
-    }
+   
   }

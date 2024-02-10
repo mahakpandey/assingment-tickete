@@ -76,11 +76,11 @@ const SelectPaymentMode = () => {
         </div>
         <div className="coming-soon-div">
           <div className="coming-soon-text"><InputAddOnIcon/><p>coming soon</p></div>
-          <div><input type="radio" id="html" name="fav_language" value="HTML" /></div>
+          <div className="radio"></div>
         </div>
         <div className="coming-soon-div">
           <div className="coming-soon-text"><GooglePayIcon/><p>coming soon</p></div>
-          <div><input type="radio" id="html" name="fav_language" value="HTML" /></div>
+          <div className="radio"></div>
         </div>
       </div>
     </div>

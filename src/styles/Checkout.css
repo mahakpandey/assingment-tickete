@@ -216,6 +216,7 @@ input::placeholder {
   justify-content: space-between;
 }
 .save-price-btn {
+  width: max-content;
   padding: 4px 8px;
   gap: 4px;
   background-color: #299764;
@@ -346,16 +347,7 @@ input::placeholder {
   background-color: #fcfcfd;
 }
 
-.left-icon-div {
-  left: 20px;
-  position: absolute;
-  top: 35%;
-}
-.right-icon-div {
-  right: 20px;
-  position: absolute;
-  top: 35%;
-}
+
 .need-help-text {
   font-family: Open Sans;
   font-size: 18px;
@@ -379,6 +371,7 @@ input::placeholder {
   letter-spacing: 0em;
   text-align: left;
   color: #edeef0;
+  width: max-content;
 }
 
 .faq-parent {
@@ -436,9 +429,41 @@ text-align: left;
   display: flex;
     flex-direction: column;
 }
+.radio{
+  height: 24px;
+  width: 24px;
+  border-radius: 100px;
+  border: 1px solid #D3D4DB;
+  background-color: #E4E4E9;
+}
+
+@media screen and (min-width: 881px) {
+  .faq-heading-text{
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 881px) {
+  .faq-parent{
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+  .faq-inner-text{
+    display: none;
+  }
+  .inner-container, .faq-section{
+    padding: 0 70px;
+  }
+}
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
+  .radio{
+    height: 20px;
+    width: 20px;
+  }
   .confirm-sub-heading-div {
     display: none;
   }

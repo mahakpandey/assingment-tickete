@@ -1,25 +1,116 @@
-.sidebar-box{
-    border: 1px solid #dddde3;
-    border-radius: 24px;
+.sidebar-box {
+  border: 1px solid #dddde3;
+  border-radius: 24px;
 }
-.upper-div{
+.upper-div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.lower-div {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dddde3;
+  padding: 16px 16px 32px 16px;
+  gap: 32px;
+}
+.gallery-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 16px 0 16px;
+}
+.view-payment-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 20px 0;
+}
+.gray-dashed-line {
+  margin: 0 16px;
+  border: 1px dashed #dddde3;
+}
+.view-pay-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+.view-link {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #60646c;
+}
+.below-carousel-div{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 24px;
 }
-.lower-div{
+.amsterdam-text{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--primary-dark-color);
+}
+.rating{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+color: var(--primary-dark-color);
+}.people{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+color: var(--primary-gray-color);
+}
+.ticket-text{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--primary-dark-color);
+padding-bottom: 8px;
+}
+.ticket-text-below{
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--primary-gray-color);
+padding-bottom: 8px;
+
+}
+.lower-sub-container{
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #DDDDE3;
-    padding: 16px 16px 32px 16px;
-    gap: 32px;
 }
-.gallery-div{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px 16px 0 16px;
-}
-.view-payment-div{
-    padding: 0 0 20px 0;
+.total-payable-text {
+    padding: 0px 0px 8px 0px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary-dark-color);
+  }
+
+@media screen and (max-width: 767px) {
 }

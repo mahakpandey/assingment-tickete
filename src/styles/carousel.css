@@ -13,7 +13,7 @@
 .carousel-slide {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
   box-sizing: border-box;
 }
 
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .carousel-btn:hover {
@@ -39,12 +39,33 @@
 .carousel-dots {
   display: flex;
   position: absolute;
-  top: 70%;
+  top: 85%;
   right: 37%;
+}
+.left-icon-div {
+  left: 20px;
+  position: absolute;
+  top: 40%;
+}
+.right-icon-div {
+  right: 20px;
+  position: absolute;
+  top: 40%;
 }
 
 @media screen and (max-width: 768px) {
     .carousel{
         border-radius: 24px 24px 12px 12px;
+    }
+    .carousel-slide{
+      display: flex;
+      justify-content: center;
+    }
+    .carousel-img{
+      aspect-ratio: 352/198;
+      width:  -webkit-fill-available;
+      height: auto;
+      max-width: auto;
+      max-height: inherit;
     }
 }

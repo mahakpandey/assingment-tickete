@@ -51,6 +51,9 @@ body{
 .align {
   align-items: center;
 }
+.w-full{
+  width: 100%;
+}
 
 .gap-half{
   gap: 2px;
